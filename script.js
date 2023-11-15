@@ -2,7 +2,7 @@ const infoBox = document.getElementById("Transition-box");
 const colors = ["#3D30A2","#B15EFF","#FFA33C","#FFFB73","#80B3FF","#F99417"];
 const skills = ["🖥️Programming","🧑🏼‍🎓Engineerning Student","🏏Cricket","📱Mobile Gamer","🎧Music","🦾Team Player"];
 
-// This will print the skills array to the console
+
 
 setInterval(()=>{
   const randomBoxColor = colors[Math.floor(Math.random() * colors.length)];
